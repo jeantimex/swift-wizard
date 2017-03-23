@@ -1,0 +1,6 @@
+framework module Pods_swift_wizard {
+  umbrella header "Pods-swift-wizard-umbrella.h"
+
+  export *
+  module * { export * }
+}
