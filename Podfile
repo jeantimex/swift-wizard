@@ -7,6 +7,7 @@ target 'swift-wizard' do
 
   # Pods for swift-wizard
   pod 'SnapKit', '~> 3.2.0'
+  pod 'Spring', :git => 'https://github.com/MengTo/Spring.git', :branch => 'swift3'
 
   target 'swift-wizardTests' do
     inherit! :search_paths
