@@ -8,11 +8,12 @@
 
 import UIKit
 import SnapKit
+import Spring
 
 class ViewController: UIViewController {
     
-    lazy var button: UIButton = {
-        var btn = UIButton(type: UIButtonType.system)
+    lazy var button: SpringButton = {
+        var btn = SpringButton(type: UIButtonType.system)
         btn.setTitle("Click me", for: .normal)
         btn.setTitleColor(UIColor.black, for: .normal)
         btn.layer.borderColor = UIColor.gray.cgColor
@@ -36,8 +37,8 @@ class ViewController: UIViewController {
     }
     
     func onClicked() {
-        print("LFD"IUYtrewq)sfdghui90lp./|N*r   cf3dex2w1szdxeFR d¨ç'u
-        ief  '
+        button.animation = Spring.AnimationPreset.Shake.rawValue
+        button.animate()
     }
 
 }
