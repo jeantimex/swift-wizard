@@ -7,12 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0A14BF781E862A2900F6836C /* WizardDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A14BF771E862A2900F6836C /* WizardDataModel.swift */; };
+		0A14BF7A1E862AE200F6836C /* SignupDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A14BF791E862AE200F6836C /* SignupDataModel.swift */; };
+		0A14BF7E1E86373F00F6836C /* SignupScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A14BF7D1E86373F00F6836C /* SignupScreenViewController.swift */; };
+		0A14BF801E86395A00F6836C /* SignupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A14BF7F1E86395A00F6836C /* SignupViewController.swift */; };
 		0AF9CB4D1E834A5E00D36547 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AF9CB4C1E834A5E00D36547 /* AppDelegate.swift */; };
 		0AF9CB4F1E834A5E00D36547 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AF9CB4E1E834A5E00D36547 /* ViewController.swift */; };
 		0AF9CB541E834A5E00D36547 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0AF9CB531E834A5E00D36547 /* Assets.xcassets */; };
 		0AF9CB571E834A5E00D36547 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0AF9CB551E834A5E00D36547 /* LaunchScreen.storyboard */; };
 		0AF9CB621E834A5E00D36547 /* swift_wizardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AF9CB611E834A5E00D36547 /* swift_wizardTests.swift */; };
 		0AF9CB6D1E834A5E00D36547 /* swift_wizardUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AF9CB6C1E834A5E00D36547 /* swift_wizardUITests.swift */; };
+		0AF9CB7C1E84739500D36547 /* WizardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AF9CB7B1E84739500D36547 /* WizardViewController.swift */; };
+		0AF9CB811E8474F400D36547 /* UsernameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AF9CB801E8474F400D36547 /* UsernameViewController.swift */; };
+		0AF9CB831E84753800D36547 /* WizardScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AF9CB821E84753800D36547 /* WizardScreenViewController.swift */; };
+		0AF9CB871E85DE9300D36547 /* PasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AF9CB861E85DE9300D36547 /* PasswordViewController.swift */; };
+		0AF9CB891E85E0A200D36547 /* CompanyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AF9CB881E85E0A200D36547 /* CompanyViewController.swift */; };
 		42008F78276585D03BBEB009 /* Pods_swift_wizardTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F288CD92B06492CCA3DCEC80 /* Pods_swift_wizardTests.framework */; };
 		8881AC028E31F72EEBE34AB8 /* Pods_swift_wizardUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B8A8177C52343DC20E0D4317 /* Pods_swift_wizardUITests.framework */; };
 		F1D239CEAFAEB858E55703BD /* Pods_swift_wizard.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F5AEE723DC89CC9CF319661 /* Pods_swift_wizard.framework */; };
@@ -36,6 +45,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0A14BF771E862A2900F6836C /* WizardDataModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = WizardDataModel.swift; path = Wizard/WizardDataModel.swift; sourceTree = "<group>"; };
+		0A14BF791E862AE200F6836C /* SignupDataModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignupDataModel.swift; sourceTree = "<group>"; };
+		0A14BF7D1E86373F00F6836C /* SignupScreenViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignupScreenViewController.swift; sourceTree = "<group>"; };
+		0A14BF7F1E86395A00F6836C /* SignupViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignupViewController.swift; sourceTree = "<group>"; };
 		0AF9CB491E834A5E00D36547 /* swift-wizard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "swift-wizard.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0AF9CB4C1E834A5E00D36547 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0AF9CB4E1E834A5E00D36547 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -48,6 +61,11 @@
 		0AF9CB681E834A5E00D36547 /* swift-wizardUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "swift-wizardUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0AF9CB6C1E834A5E00D36547 /* swift_wizardUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swift_wizardUITests.swift; sourceTree = "<group>"; };
 		0AF9CB6E1E834A5E00D36547 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0AF9CB7B1E84739500D36547 /* WizardViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = WizardViewController.swift; path = Wizard/WizardViewController.swift; sourceTree = "<group>"; };
+		0AF9CB801E8474F400D36547 /* UsernameViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UsernameViewController.swift; sourceTree = "<group>"; };
+		0AF9CB821E84753800D36547 /* WizardScreenViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = WizardScreenViewController.swift; path = Wizard/WizardScreenViewController.swift; sourceTree = "<group>"; };
+		0AF9CB861E85DE9300D36547 /* PasswordViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PasswordViewController.swift; sourceTree = "<group>"; };
+		0AF9CB881E85E0A200D36547 /* CompanyViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CompanyViewController.swift; path = Wizard/CompanyViewController.swift; sourceTree = "<group>"; };
 		253040DC640BBE1D69E042DD /* Pods-swift-wizardUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-swift-wizardUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-swift-wizardUITests/Pods-swift-wizardUITests.release.xcconfig"; sourceTree = "<group>"; };
 		47128F0CE7A43E06163622C2 /* Pods-swift-wizardTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-swift-wizardTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-swift-wizardTests/Pods-swift-wizardTests.debug.xcconfig"; sourceTree = "<group>"; };
 		55E92773C446B1A41750A00E /* Pods-swift-wizard.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-swift-wizard.debug.xcconfig"; path = "Pods/Target Support Files/Pods-swift-wizard/Pods-swift-wizard.debug.xcconfig"; sourceTree = "<group>"; };
@@ -112,6 +130,8 @@
 		0AF9CB4B1E834A5E00D36547 /* swift-wizard */ = {
 			isa = PBXGroup;
 			children = (
+				0AF9CB7D1E84746B00D36547 /* Forms */,
+				0AF9CB7A1E84732600D36547 /* Wizard */,
 				0AF9CB4C1E834A5E00D36547 /* AppDelegate.swift */,
 				0AF9CB4E1E834A5E00D36547 /* ViewController.swift */,
 				0AF9CB531E834A5E00D36547 /* Assets.xcassets */,
@@ -137,6 +157,29 @@
 				0AF9CB6E1E834A5E00D36547 /* Info.plist */,
 			);
 			path = "swift-wizardUITests";
+			sourceTree = "<group>";
+		};
+		0AF9CB7A1E84732600D36547 /* Wizard */ = {
+			isa = PBXGroup;
+			children = (
+				0AF9CB7B1E84739500D36547 /* WizardViewController.swift */,
+				0AF9CB821E84753800D36547 /* WizardScreenViewController.swift */,
+				0A14BF771E862A2900F6836C /* WizardDataModel.swift */,
+			);
+			name = Wizard;
+			sourceTree = "<group>";
+		};
+		0AF9CB7D1E84746B00D36547 /* Forms */ = {
+			isa = PBXGroup;
+			children = (
+				0AF9CB801E8474F400D36547 /* UsernameViewController.swift */,
+				0AF9CB861E85DE9300D36547 /* PasswordViewController.swift */,
+				0AF9CB881E85E0A200D36547 /* CompanyViewController.swift */,
+				0A14BF791E862AE200F6836C /* SignupDataModel.swift */,
+				0A14BF7D1E86373F00F6836C /* SignupScreenViewController.swift */,
+				0A14BF7F1E86395A00F6836C /* SignupViewController.swift */,
+			);
+			name = Forms;
 			sourceTree = "<group>";
 		};
 		C88DDE5904611A7A42D05C52 /* Pods */ = {
@@ -445,8 +488,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0AF9CB811E8474F400D36547 /* UsernameViewController.swift in Sources */,
+				0AF9CB7C1E84739500D36547 /* WizardViewController.swift in Sources */,
+				0A14BF801E86395A00F6836C /* SignupViewController.swift in Sources */,
 				0AF9CB4F1E834A5E00D36547 /* ViewController.swift in Sources */,
+				0AF9CB871E85DE9300D36547 /* PasswordViewController.swift in Sources */,
+				0A14BF7E1E86373F00F6836C /* SignupScreenViewController.swift in Sources */,
+				0AF9CB891E85E0A200D36547 /* CompanyViewController.swift in Sources */,
+				0AF9CB831E84753800D36547 /* WizardScreenViewController.swift in Sources */,
+				0A14BF7A1E862AE200F6836C /* SignupDataModel.swift in Sources */,
 				0AF9CB4D1E834A5E00D36547 /* AppDelegate.swift in Sources */,
+				0A14BF781E862A2900F6836C /* WizardDataModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
