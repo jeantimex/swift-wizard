@@ -39,6 +39,12 @@ class ViewController: UIViewController {
     func onClicked() {
         button.animation = Spring.AnimationPreset.Shake.rawValue
         button.animate()
+        
+        let signupDataModel: SignupDataModel = SignupDataModel()
+        
+        let vc = SignupViewController(rootWizardScreenViewController: UsernameViewController(), dataModel: signupDataModel)
+        
+        self.present(vc, animated: true, completion: nil)
     }
 
 }
